@@ -75,10 +75,12 @@ header{
     display: inline;
     float:left;
 }
+
 .nav{
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     padding: 24px;
     height: auto;
+    float:right;
 }
 .nav a {
     color: #777777;
@@ -88,9 +90,9 @@ header{
     font-size: 20px;
     display: inline-block;
 }
-.nav a:first-child{
+/* .nav a:first-child{
     margin-left:265px;
-}
+} */
 .nav a:nth-child(2){
     border-left: 1px solid #777777;
     border-right: 1px solid #777777;
@@ -266,42 +268,13 @@ footer{
   Responsive
   ========================================
 */
-
-
 @media only screen and (max-width: 980px)
 {
-    header{
-        height:80px;
-    }
     .container {
         width: 100%;
-        margin: 0 auto;
-        height:80px;
-        padding:0;
-        margin:0;
     }  
-    .nav-main{
-        font-size:150%;
-        width:30%;
-        height:60px;
-        padding:20px 10px 0 ;
-        margin:0;
-        text-align: center;
-    }
-    .nav{
-        width:100%;
-        height:80px;
-        padding:0;
-        margin:0;
-    }
     .nav a {
-        font-size:15px;
-        padding: 25px 5px;
-        margin-top:5px;
-        float: left;
-    }
-    .nav a:first-child{
-        margin-left:29%;
+        font-size:18px;
     }
     .main{
         padding:20px 0;
@@ -339,38 +312,17 @@ footer{
 }
 @media only screen and (max-width: 768px)
 {
-    header{
-        height:80px;
-    }
+    
     .container {
         width: 100%;
-        margin: 0 auto;
-        height:80px;
-        padding:0;
-        margin:0;
     }  
     .nav-main{
-        font-size:150%;
-        width:30%;
-        height:60px;
-        padding:20px 10px 0 ;
-        margin:0;
-        text-align: center;
-    }
-    .nav{
-        width:100%;
-        height:80px;
-        padding:0;
-        margin:0;
+        font-size: 25px;
+        width:35%;
+        height:30px;
     }
     .nav a {
-        font-size:15px;
-        padding: 25px 5px;
-        margin-top:5px;
-        float: left;
-    }
-    .nav a:first-child{
-        margin-left:28%;
+        font-size:13px;
     }
     .main{
         padding:20px 0;
@@ -447,7 +399,7 @@ footer{
         border-bottom: 3px solid #cccccc;
     }  
     .nav-main{
-        padding: 10px 0 0 ;
+        padding: 10px 0;
         font-size: 2rem;
         width:100%;
         text-align: center;
@@ -467,7 +419,7 @@ footer{
     .nav a {
         float: none;
         text-align: left;
-        padding: 20px 10px;
+        padding: 10px;
         font-size: 20px;
         display: inline-block;
     }
