@@ -72,7 +72,6 @@ header{
     background-color: #4aaaa5;
     padding: 30px 40px;
     font-size: 30px;
-    display: inline;
     float:left;
 }
 .nav{
@@ -124,8 +123,8 @@ h2{
     color: #4aaaa5;
     font-family: 'Georgia', Times, 'Times New Roman', serif;
     font-size: 30px;
-    padding: 10px 0 20px 5px;
-    width: 900px;
+    padding: 10px 0 20px 0px;
+    width: 90%;
     margin: 0 auto;
     border-bottom: 2px solid #cccccc;
     font-weight: bold;
@@ -270,9 +269,6 @@ footer{
     .container {
         width: 95%;
     }  
-    .nav a {
-        font-size:18px;
-    }
     .main{
         padding:20px 0;
         clear: both;
@@ -281,12 +277,6 @@ footer{
         width: 95%;
         margin: 0 auto;
       }
-    h2{
-        padding-left:40px;
-        font-size: 1.5rem;
-        width: 90%;
-        margin: 0 auto;
-    }
     .About-Pic{
         width: 30%;
         height: auto;
@@ -306,12 +296,13 @@ footer{
 @media only screen and (max-width: 768px)
 {
     .nav-main{
-        font-size: 25px;
+        font-size: 26px;
         width:35%;
         height:30px;
+        padding: 30px 20px;
     }
     .nav a {
-        font-size:13px;
+        font-size:16px;
     }
     .FirstGrid {
         grid-template-columns: 250px 250px;
@@ -335,7 +326,6 @@ footer{
     }  
     .nav-main{
         padding: 10px 0;
-        font-size: 2rem;
         width:100%;
         float:left;
     }
@@ -356,16 +346,11 @@ footer{
         width: 99%;
         margin: 0 auto;
       }
-    h2 {
-        font-size: 2rem;
-        width: 85%;
-        margin: 0 auto;
-    }
     .About-Pic{
         float:none;
         margin: 0;
         padding:0;
-        width: 55%;
+        width: 45%;
         margin-top:2%;
         margin-left:25%;
     }
